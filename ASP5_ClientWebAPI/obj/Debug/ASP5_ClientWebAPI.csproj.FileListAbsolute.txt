@@ -1,0 +1,13 @@
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\ASP5_ClientWebAPI.dll.config
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\ASP5_ClientWebAPI.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\ASP5_ClientWebAPI.pdb
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\Microsoft.Web.Infrastructure.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.Helpers.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.Mvc.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.Razor.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.WebPages.Deployment.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.WebPages.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\bin\System.Web.WebPages.Razor.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\obj\Debug\ASP5_ClientWebAPI.csprojResolveAssemblyReference.cache
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\obj\Debug\ASP5_ClientWebAPI.dll
+F:\Mahesh_New\ASPNET5\ASP5AppWithEF7\ASP5_ClientWebAPI\obj\Debug\ASP5_ClientWebAPI.pdb

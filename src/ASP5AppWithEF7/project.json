@@ -1,0 +1,33 @@
+﻿{
+    "webroot": "wwwroot",
+    "version": "1.0.0-*",
+    "exclude": [
+        "wwwroot"
+    ],
+    "packExclude": [
+        "**.kproj",
+        "**.user",
+        "**.vspscc"
+    ],
+    "dependencies": {
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta1",
+        "EntityFramework": "7.0.0-beta1",
+        "EntityFramework.Relational": "7.0.0-beta1",
+        "EntityFramework.Commands": "7.0.0-beta1",
+        "EntityFramework.Migrations": "7.0.0-beta1",
+        "EntityFramework.SqlServer": "7.0.0-beta1",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta1",
+        "Microsoft.AspNet.Http": "1.0.0-beta1",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta1",
+        "Microsoft.AspNet.Mvc.Core": "6.0.0-beta1",
+        "Microsoft.AspNet.Routing": "1.0.0-beta1",
+        "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta1"
+    },
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": { }
+    },
+    "commands": {
+        "orm": "EntityFramework.Commands"
+    } 
+}

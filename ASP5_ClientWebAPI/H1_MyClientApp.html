@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Client Of WEB API</title>
+
+    <style type="text/css">
+        table, td {
+            border: double;
+        }
+    </style>
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/knockout-3.2.0.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <div id="dvlist">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Product Id</td>
+                                <td>Product Name</td>
+                                <td>Category Name</td>
+                                <td>Manufacturer</td>
+                                <td>Price</td>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach:Products">
+                            <tr>
+                                <td>
+                                    <span data-bind="text:ProductId"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:ProductName"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:CategoryName"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:Manufacturer"></span>
+                                </td>
+                                <td>
+                                    <span data-bind="text:Price"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div>
+        <span data-bind="text:ErrorMessage"></span>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+    var ViewModel = function () {
+        var self = this;
+
+        self.Products = ko.observableArray([]);
+
+        self.ProductId = ko.observable(0);
+        self.ProductName = ko.observable("");
+        self.CategoryName = ko.observable("");
+        self.Manufacturer = ko.observable("");
+        self.Price = ko.observable(0);
+
+        self.ErrorMessage = ko.observable("");
+
+        var Product = {
+            ProductId: self.ProductId,
+            ProductName: self.ProductName,
+            CategoryName: self.CategoryName,
+            Manufacturer: self.Manufacturer,
+            Price:self.Price
+        };
+
+        loadProducts();
+
+        function loadProducts() {
+            $.ajax({
+                url: "http://localhost:37906/api/ProductAPI",
+                type:"GET"
+            }).done(function (resp) {
+                self.Products(resp);
+            }).error(function (err) {
+                self.ErrorMessage("Error!!!" + err.status);
+            });
+        }
+    };
+    ko.applyBindings(new ViewModel());
+    </script>
+</body>
+</html>

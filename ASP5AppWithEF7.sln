@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCECE641-BC31-4936-A48C-8689DB2D75A8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASP5AppWithEF7", "src\ASP5AppWithEF7\ASP5AppWithEF7.kproj", "{41129A79-4703-4CF3-87AC-FF99A5DC4280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6621301-B88E-4C97-9512-0A6B81EDF181}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP5_ClientWebAPI", "ASP5_ClientWebAPI\ASP5_ClientWebAPI.csproj", "{AF26B9C1-AF45-4AA6-94BC-5D0CADA41995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41129A79-4703-4CF3-87AC-FF99A5DC4280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41129A79-4703-4CF3-87AC-FF99A5DC4280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41129A79-4703-4CF3-87AC-FF99A5DC4280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41129A79-4703-4CF3-87AC-FF99A5DC4280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF26B9C1-AF45-4AA6-94BC-5D0CADA41995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF26B9C1-AF45-4AA6-94BC-5D0CADA41995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF26B9C1-AF45-4AA6-94BC-5D0CADA41995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF26B9C1-AF45-4AA6-94BC-5D0CADA41995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41129A79-4703-4CF3-87AC-FF99A5DC4280} = {DCECE641-BC31-4936-A48C-8689DB2D75A8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿{
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=.;Database=ApplicationDb;Trusted_Connection=True;"
+        }
+    }
+}
